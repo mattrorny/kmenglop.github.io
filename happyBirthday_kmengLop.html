@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday ក្មេងឡប់ ♡</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@400;700&family=Dancing+Script:wght@700&display=swap');
+
+    * {margin:0;padding:0;box-sizing:border-box;}
+    html {scroll-behavior: smooth;} /* This makes all clicks super smooth */
+
+    body {
+      font-family: 'Suwannaphum', serif;
+      background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+      color: #0e0d0d;
+      overflow-x: hidden;
+      padding-top: 80px; /* Space for fixed menu */
+    }
+    @keyframes gradient {0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+
+    /* Fixed Navigation Menu */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(228, 70, 70, 0.15);
+      backdrop-filter: blur(10px);
+      padding: 15px 0;
+      text-align: center;
+      z-index: 1000;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.4rem;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: all 0.3s;
+    }
+    nav a:hover {
+      background: rgba(255,255,255,0.3);
+      transform: scale(1.1);
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 4.5rem;
+      margin-bottom: 20px;
+      text-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+    }
+
+    .message {
+      font-size: 1.7rem;
+      line-height: 2.4;
+      max-width: 900px;
+      background: rgba(224, 217, 217, 0.15);
+      padding: 40px;
+      border-radius: 25px;
+      backdrop-filter: blur(8px);
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      max-width: 1100px;
+      margin: 40px auto;
+    }
+    .photo-grid img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+      transition: 0.5s;
+    }
+    .photo-grid img:hover {transform: scale(1.08);}
+
+    .gift {font-size: 12rem; animation: bounce 2s infinite;}
+    @keyframes bounce {0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-40px)}60%{transform:translateY(-20px)}}
+
+    .scroll-hint {
+      margin-top: 30px;
+      font-size: 1.6rem;
+      animation: updown 2s infinite;
+    }
+    @keyframes updown {0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+
+    @media (max-width: 768px) {
+      nav a {font-size: 1.1rem; margin: 0 10px; padding: 8px 15px;}
+      h1 {font-size: 3.2rem;}
+      .message {font-size: 1.4rem; padding: 25px;}
+      .gift {font-size: 9rem;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fixed Navigation -->
+  <nav>
+    <a href="#home">ទំព័រដើម</a>
+    <a href="#message">សារពីបង</a>
+    <a href="#photos">រូបភាពយើង</a>
+    <a href="#gift">កាដូពិសេស</a>
+  </nav>
+
+  <!-- Section 1 - Home -->
+  <section id="home">
+    <h1>Happy Birthday ក្មេងឡប់ ♡</h1>
+    <p style="font-size:2rem;">ខ្ញុំមានកាដូពិសេសៗ ៣ សម្រាប់ប្អូនស្រី...</p>
+    <p class="scroll-hint">ចុចម៉ឺនុយខាងលើ ឬ រំកិលចុះក្រោម ♡</p>
+  </section>
+
+  <!-- Section 2 - Message -->
+  <section id="message">
+    <h1>សារពីបងប្រុស ♡</h1>
+    <div class="message">
+      ក្មេងឡប់របស់បង...<br><br>
+      ថ្ងៃនេះជាថ្ងៃកំណើតរបស់ប្អូន ហើយបងចង់ប្រាប់ប្អូនថា ប្អូនជាមនុស្សដែលបងស្រឡាញ់បំផុតលើលោកនេះ។<br><br>
+      រាល់ថ្ងៃដែលបាននៅក្បែរប្អូន គឺជាថ្ងៃដ៏សប្បាយចិត្តបំផុតក្នុងជីវិតបង។<br><br>
+      ទោះជាពេលខ្លះបងមិនល្អឥតខ្ចោះ ទោះជាបងធ្វើខុសច្រើនដង...<br>
+      ប៉ុន្តែបងស្រឡាញ់ប្អូនអស់ពីចិត្ត ហើយនឹងស្រឡាញ់ប្អូនជារៀងរហូត។<br><br>
+      អរគុណប្អូនដែលជា "ក្មេងឡប់" របស់បង<br>
+      អរគុណដែលប្អូននៅតែកំដរបងកន្លងមក<br>
+      អរគុណដែលប្អូនធ្វើឱ្យបងក្លាយជាមនុស្សល្អបំផុត<br><br>
+      បងសន្យាថា នឹងខំថែរក្សាស្នាមញញឹមរបស់ប្អូនឲនៅក្នុងចិត្តរហូត...<br>
+      ព្រោះស្នាមញញឹមរបស់ប្អូន គឺជាពន្លឺតែមួយគត់ដែលរួមចំណេកធ្វើឲបងរីករាយ។<br><br>
+      រីករាយថ្ងៃកំណើត ក្មេងឡប់របស់បង ♡<br>
+      បងសូមជូនពរ​ប្អូនឲមានសុខភាពល្អ ទទួលទៀនមានបាន មានសុភមង្គលក្នុងក្រុមគ្រួសារ និងជួបដៃគូរជីវិតស្រឡាញ់គ្នាជានិរន្ត៍...<br><br>
+      — អរគុណ គ្មេងឡប់ —
+    </div>
+  </section>
+
+  <!-- Section 3 - Photos -->
+  <section id="photos">
+    <h1>រូបភាពយើងពីរ ♡</h1>
+    <div class="photo-grid">
+      <img src="photo-grid/IMG_7019.JPG" alt="Us">
+      
+      
+    </div>
+    <p style="font-size:1.8rem;">រាល់រូបភាព គឺជាកំណត់ត្រានៃស្នាមញញឹម និងសេចក្តីស្រឡាញ់របស់យើង ♡</p>
+  </section>
+
+  <!-- Section 4 - Gift -->
+  <section id="gift">
+    <h1>កាដូពិសេសសម្រាប់ក្មេងឡប់ ♡</h1>
+    <div class="gift">🎁</div>
+    <h1 style="font-size:4rem;margin:40px 0;">Open it in real life...</h1>
+    <p style="font-size:2.3rem;max-width:90%;">
+      កាដូពិតប្រាកដរបស់បងគឺ...<br><br>
+      ចង់ឃើញប្អូនជោគជ័យតាមបំណងប្រថ្នា<br>
+      love you so much ♡
+    </p>
+  </section>
+
+  <!-- Background music (only sound) -->
+  <iframe style="display:none" src="https://www.youtube.com/embed/3zQ4s0tNL8U?autoplay=1&loop=1&playlist=3zQ4s0tNL8U&controls=0" allow="autoplay" frameborder="0"></iframe>
+
+  <!-- Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script>
+    // First confetti when page loads
+    setTimeout(() => confetti({particleCount: 250, spread: 100, origin: { y: 0.6 }}), 1000);
+
+    // Confetti every time a new section appears
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          confetti({
+            particleCount: 180,
+            spread: 90,
+            origin: { y: 0.6 },
+            colors: ['#ff69b4','#ffb6c1','#ff9a9e','#ffd700','#98fb98','#ffffff']
+          });
+        }
+      });
+    }, { threshold: 0.4 });
+
+    document.querySelectorAll('section').forEach(sec => observer.observe(sec));
+  </script>
+</body>
+</html>
